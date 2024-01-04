@@ -67,7 +67,7 @@ function register_post_type_registration()
 {
     $args = [
         'hierarchical'        => false,
-        'public'              => true,
+        'public'              => false,
         'exclude_from_search' => true,
         'publicly_queryable'  => true,
         'show_ui'             => true,
